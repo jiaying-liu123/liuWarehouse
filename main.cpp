@@ -7,7 +7,7 @@ void maxsum(int n, int a[100])
 	max = a[0];
 	for (i = 0; i < n; i++)
 	{
-		if (sum> 0)
+		if (max> 0)
 			 sum= sum+a[i];
 		else
 			sum = a[i];
